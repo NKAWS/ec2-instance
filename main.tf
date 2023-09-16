@@ -61,7 +61,7 @@ resource "aws_route_table" "private_route_table" {
   vpc_id = aws_vpc.main.id
 
   tags = {
-    Name = "timing-public-rt"
+    Name = "timing-private-rt"
     Terraform = "true"
     Environment = "Dev"
   }
